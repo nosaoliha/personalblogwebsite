@@ -1,4 +1,4 @@
 @media screen and (max-width: 736px) {
-	.header, .topnav, .leftcolumn, .rightcolumn, .footer {   
+	.topnav, .leftcolumn, .rightcolumn {   
     width: 100%;
 }
