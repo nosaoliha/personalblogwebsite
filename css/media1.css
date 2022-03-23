@@ -1,0 +1,13 @@
+@media(max-width: 480px){
+.contain{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 10px 1fr 1fr;
+  grid-template-areas:
+    'nt nt nt nt nt nt nt nt nt nt nt nt'
+    'in in in in in in in in in in in in'
+    'main main main main main main main main main main main main'
+    'ft ft ft ft ft ft ft ft ft ft ft ft';
+  }
+}

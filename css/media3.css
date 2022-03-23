@@ -1,0 +1,13 @@
+@media(min-width: 992px){
+  .contain{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 50px 1fr;
+  grid-template-areas:
+    'nt nt nt nt nt nt nt nt nt nt nt nt'
+    'in in in in in in main main main main main main'    
+    'ft ft ft ft ft ft ft ft ft ft ft ft';
+  border: 3px solid #66ff33;
+  }
+}
