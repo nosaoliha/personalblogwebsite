@@ -29,17 +29,6 @@ header {
 	font-weight: bolder;
 }
 
-.leftcolumn {   
-	float: left;
-	width: 30%;
-}
-
-.rightcolumn {
-	float: left;
-	width: 70%;
-	padding-left: 10px;
-}
-
 .flex-container {
 	display: flex;
 	flex-direction: column;
@@ -66,16 +55,9 @@ header {
 
 .image1 {
 	background-image: url("https://cdn.shopify.com/s/files/1/1640/5095/files/5fd0639bd17830567407630c_480x480.jpg?v=1607777402");
+	background-repeat: no-repeat;
 	width: 100%;
 	height: 425px;
-	padding: 5px;
-	border-radius: 10px;
-	border: 2px solid burlywood;
-}
-.image2 {
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrlc9zTlOVktxKLvWglBh_-0HFBR2reRcHug&usqp=CAU");
-	width: 100%;
-	height: 110px;
 	padding: 5px;
 	border-radius: 10px;
 	border: 2px solid burlywood;
@@ -89,7 +71,7 @@ header {
 	border: 3px solid burlywood;
 }
 
-.row:after {
+.row::after {
 	content: "";
 	display: table;
 	clear: both;
